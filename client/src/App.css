@@ -1,0 +1,54 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 280px;
+  height: 30px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+button {
+  width: 280px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.info button:hover {
+  cursor: pointer;
+}
+
+.showbtn button:hover {
+  cursor: pointer;
+}
+
+.showbtn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.item {
+  width: 650px;
+  height: auto;
+  border: 1px solid black;
+  margin: 15px;
+  display: flex;
+  padding: 10px;
+  font-family: monospace;
+}
+h3 {
+  margin: 18px;
+}
